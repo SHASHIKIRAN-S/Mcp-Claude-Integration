@@ -6,9 +6,9 @@ import pymysql.cursors
 # ========================================
 MYSQL_CONFIG = {
     'host': 'localhost',
-    'user': 'root',
-    'password': 'Shashi@2005!',
-    'database': 'leave_request',
+    'user': 'your_username',
+    'password': 'your_password',
+    'database': 'your_db_name',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.DictCursor
 }
